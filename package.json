@@ -1,0 +1,15 @@
+{
+  "name": "decryption-app-moder-version",
+  "version": "1.0.0",
+  "description": "A javascript challenge. Find out what the problem is, then solve it. With ES6/7 goodness.",
+  "main": "index.html",
+  "scripts": {
+    "start": "node ./server/server.js",
+    "prod": "pm2 start ./server/server.js --name decryption-app-modern-version"
+  },
+  "author": "Branden Dane",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
